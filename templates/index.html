@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Formula Hive</h1>
+    <form action="/search" method="POST">
+        <input type="text" name="keyword" placeholder="Enter a keyword">
+        <button type="submit">Search</button>
+    </form>
+    <h2>Add a New Formula</h2>
+    <form action="/add_result" method="POST">
+        <input type="text" name="keyword" placeholder="Keyword">
+        <textarea name="result_text" placeholder="Result Text"></textarea>
+        <button type="submit">Add Formula</button>
+    </form>
+</body>
+</html>
