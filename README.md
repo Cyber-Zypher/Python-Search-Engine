@@ -29,6 +29,24 @@ or
 python -m pip install mysql.connector
 python -m pip install Flask
 ```
+
+## File Structure.
+Make Sure that the Files are stored as it is shown below.
+```
+Python_search_engine/
+│
+├── templates/
+│   ├── add_results.html
+│   ├── index.html
+│   └── search_results.html
+├── static/
+│   └── styles.css
+├── README.md
+├── app.py
+├── venv/       (virtual environment - recommended)
+└── ...
+
+```
 ## Authors
 
 - [@sidharth_everett](https://github.com/Cyber-Zypher)
