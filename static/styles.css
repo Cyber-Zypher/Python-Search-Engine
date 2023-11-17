@@ -1,0 +1,98 @@
+/* Apply some basic styling to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+h1, h2 {
+    background-color: #7743DB; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    margin: 0;
+}
+
+/* Style the search and add forms */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px; /* Reduced margin */
+    display: inline-block;
+    width: calc(50% - 20px); /* 50% width with margin included */
+}
+
+/* Style the input fields and buttons */
+input[type="text"], textarea {
+    width: calc(100% - 20px); /* 100% width with padding included */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Style the rules box */
+.rules-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    float: right; /* Align to the right */
+    width: calc(25% - 20px); /* Adjust the width as needed */
+}
+
+/* Style the rules box header */
+.rules-box h3 {
+    background-color: #7743DB; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    margin: 0;
+}
+
+.menu-option {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-option:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Add this style to your existing CSS or create a new section for button styles */
+.navigation-button {
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* White text color */
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove default underline for anchor tags */
+    display: inline-block;
+}
+
+.navigation-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+

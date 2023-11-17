@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Formula Hive</h1>
+    <form action="/search" method="POST">
+        <input type="text" name="keyword" placeholder="Enter a keyword">
+        <button type="submit">Search</button>
+    </form>
+    <!-- <h2>Add a New Formula</h2>
+    <form action="/add_result" method="POST">
+        <input type="text" name="keyword" placeholder="Keyword">
+        <textarea name="result_text" placeholder="Result Text"></textarea>
+        <button type="submit">Add Formula</button>
+    </form> -->
+
+    <div class="rules-box">
+        <h3>CHAPTERS</h3>
+        <p>(#011) Trigonometry</p>
+        <p>(#012) Mensuration</p>
+        <p>(#013) Differebtial Calculus</p>
+        <p>(#014) Integral Calculus</p>
+        <!-- Add more rules as needed -->
+    </div>
+
+    <!-- Inside your existing menu option div -->
+    <form action="/add_resultpage">
+        <button type="submit">Add a new formula</button>
+    </form>
+
+<script>
+    // script.js
+
+document.addEventListener('DOMContentLoaded', function() {
+    var moveToAnotherPageButton = document.getElementById('menuOption');
+
+    moveToAnotherPageButton.addEventListener('click', function() {
+        // Change the location to the desired HTML file
+        window.location.href = 'add_results.html';
+    });
+});
+
+</script>
+
+
+    <!-- JavaScript to toggle the display of the Add Result Form -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <!-- Add this button wherever you want in your existing HTML -->
+
+</body>
+</html>

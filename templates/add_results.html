@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Result Page</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <h1>Add a new formula to the Hive.</h1>
+    <form action="/add_result" method="POST">
+        <input type="text" name="keyword" placeholder="Keyword">
+        <textarea name="result_text" placeholder="Result Text"></textarea>
+        <button type="submit">Add Formula</button>
+    </form>
+
+    <!-- JavaScript to toggle the display of the Add Result Form -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
