@@ -4,7 +4,7 @@ import time
 db = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='SidharthPriya'
+    password='123456789'
 )
 print("DANGER!!! By proceeding with this script, your database will be completely deleted and you can't retrieve the contents back! DANGER!!!")
 confrm = input("Do you wish to continue? (Y/N): ")
