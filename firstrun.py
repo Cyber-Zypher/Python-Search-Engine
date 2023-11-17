@@ -4,7 +4,7 @@ import time
 db = mysql.connector.connect(
     host='localhost',
     user='root',
-    password='SidharthPriya'
+    password='123456789'
 )
 print("Database configuration in progress...")
 time.sleep(3)
