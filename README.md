@@ -4,6 +4,11 @@ A simple Search engine program with Python and MySQL database with TKinter GUI.
 Easily customizable with flexible syntax.
 
 ## Create Database and Tables
+Simply run the ```firstrun.py``` script for autoconfiguring the database.
+(Make sure to edit the user and password in every script before actually running the program.)
+
+(or)
+
 Open MySQL Commandline client and log in.
 
 ```
